@@ -1,0 +1,20 @@
+{
+  "name": "folder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jasmine-console-reporter": "^3.1.0",
+    "jasmine-reporters": "^2.5.2",
+    "selenium-webdriver": "^4.34.0"
+  },
+  "devDependencies": {
+    "jasmine": "^5.8.0"
+  }
+}
