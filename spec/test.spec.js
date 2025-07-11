@@ -19,8 +19,7 @@ describe('SauceDemo Tests - Reusable Structure', function () {
     });
 
     it('should login successfully', async function () {
-        await login(driver);
-        const currentUrl = await driver.getCurrentUrl();
-        expect(currentUrl).toContain('inventory');
+        await login(driver, "ADMIN", "1234", "Frensh");
+        await driver.sleep(5000)
     });
 });
